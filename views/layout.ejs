@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- favicon -->
+    <link rel="icon" sizes="16x16" href="/img/favicon.png">
+
+    <!-- Title -->
+    <title> Cộng đồng chia sẻ </title>
+  
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/owl.carousel.css">
+    <link rel="stylesheet" href="/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/css/fontawesome.css">
+
+    <!-- main style -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+    <!--loading -->
+    <!-- <div class="loader">
+        <div class="loader-element"></div>
+    </div> -->
+
+    <!-- Header-->
+    <header class="header navbar-expand-lg fixed-top ">
+        <%- include('./share/header.ejs') %>
+    </header>
+
+     <div class="section-heading">
+         <div class="container-fluid">
+             <div class="section-heading-1">
+                <div class="row">
+                    <%- body %> 
+                </div>
+            </div>
+         </div>          
+     </div> 
+
+ 
+    <!--footer-->
+    <div class="footer">
+        <%- include('./share/footer.ejs') %>        
+    </div>
+    
+    <!--Back-to-top-->
+    <div class="back">
+        <a href="#" class="back-top">
+            <i class="las la-long-arrow-alt-up"></i>
+        </a>
+    </div>   
+
+    <!--Search-form-->
+    <div class="search">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-10 m-auto">
+                    <div class="search-width">
+                        <button type="button" class="close">
+                            <i class="far fa-times"></i>
+                        </button>
+                        <form class="search-form" action="search.html">
+                            <input type="search" value="" placeholder="What are you looking for?">
+                            <button type="submit" class="search-btn"> search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script> -->
+    
+    <!-- JS Plugins  -->
+    <!-- <script  src="assets/js/theia-sticky-sidebar.js"></script>
+    <script src="assets/js/ajax-contact.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/switch.js"></script>
+    <script src="assets/js/jquery.marquee.js"></script> -->
+
+    <!-- JS main  -->
+    <!-- <script src="assets/js/main.js"></script>      -->
+
+</body>
+
+</html>
